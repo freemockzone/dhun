@@ -1,0 +1,147 @@
+{
+    "heroSlides": [
+        {"id": "h1", "badge": "New Release", "title": "Awarapan Reloaded", "desc": "The definitive heartbreak anthems, remastered.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTofbdYZMjSkCl0mmWkz9lk7b6Df_xTc4FNk6iOdAAc_w&s", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785219225/Yeh_Awarapan_Awarapan_2_320_Kbps_mdtqsq.mp3", "artist": "Mustafa Zahid"},
+        {"id": "h2", "badge": "Trending Podcast", "title": "The Indian Epic", "desc": "Dive deep into the greatest mythological stories.", "cover": "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?w=600", "audioUrl": "https://www.bensound.com/bensound-music/bensound-slowmotion.mp3", "artist": "Mythology Cast"}
+    ],
+    "weeklyTop": [
+        {"id": "h1", "badge": "New Release", "title": "Yeh Awarapan", "desc": "A soulful melody of loneliness and deep longing.", "cover": "https://c.saavncdn.com/936/Yeh-Awarapan-From-Awarapan-2-Hindi-2026-20260721110124-500x500.jpg", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785219225/Yeh_Awarapan_Awarapan_2_320_Kbps_mdtqsq.mp3", "artist": "Mustafa Zahid"},
+        {"id": "h2", "badge": "New Release", "title": "Kalyani", "desc": "A viral, refreshing blend of classical vibes and modern rhythm.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbEgGo2Lir5mByVilqegMosz_RM-RslxgvTT7uziLCqiE3xsQclpY7jQQ&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323335/Kalyani_ARJN_Shreya_Ghoshal_arxcqb.mp3", "artist": "Shreya Ghoshal, ARJN, KDS, FIFTY4"},
+        {"id": "h3", "badge": "New Release", "title": "Gehra Hua", "desc": "An intense and deep anthem celebrating the colors of love.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZD38u1wySyysT46FGTCo_8Gl8pOxwDgtOOhELwcZngykhjN5xwVQ1JM&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323345/Gehra_Hua_Dhurandhar_320_Kbps_ofx9zw.mp3", "artist": "Arijit Singh, Shashwat Sachdev, Armaan Khan"},
+        {"id": "h4", "badge": "New Release", "title": "Barota", "desc": "A powerful, hard-hitting track driven by signature beats.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlrfAKqp-wWbgj4aXrsrD4nkacA9VCAPiGEi1ioOGoLw&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323348/Barota_Sidhu_Moose_Wala_320_Kbps_x9q5nu.mp3", "artist": "Sidhu Moose Wala, The Kidd"},
+        {"id": "h5", "badge": "New Release", "title": "SHKINI", "desc": "An upbeat dance number designed to light up the dance floors.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhniyjv0zH9qQVX_xOtWHfy2lkodir2TTDJgvk7eDKDw&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323343/Shkini_Guru_Randhawa_320_Kbps_riqskk.mp3", "artist": "Guru Randhawa, Kiran"},
+        {"id": "h6", "badge": "New Release", "title": "Lying Anyway", "desc": "A smooth, laid-back Punjabi track with raw, relatable lyricism.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgv2u97XaZ02WEK0cI8xGNx_S7n7bzk11elQN665JcqsuH775ewZK7-XcW&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323345/Lying_Anyway_L.o.v.e_320_Kbps_tdqqln.mp3", "artist": "Prem Dhillon"},
+        {"id": "h7", "badge": "New Release", "title": "God Did", "desc": "A stellar motivational anthem praising higher success and faith.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPX0pMH0J45vq81uja_Nb7EkG8Mptb72EYX90mbtwjQ&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323345/God_Did_vz9xfd.mp3", "artist": "Nijjar"},
+        {"id": "h8", "badge": "New Release", "title": "Hawawan", "desc": "A breezy, melodic ride packed with signature modern vibes.", "cover": "https://i.ytimg.com/vi/71bfn7QgOtM/maxresdefault.jpg", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323344/Hawawan_oflbkh.mp3", "artist": "Gurinder Gill"},
+        {"id": "h9", "badge": "New Release", "title": "Bum Baa Diga Diga", "desc": "A high-octane, rhythmic energy track that keeps you moving.", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2sXYV3uJv_ZFoGSiPoZB16WF2bWqY4RERoA83wmP1cvA4An8F-ccYoo&s=10", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323329/Bum_Baa_Diga_Diga_ykroxh.mp3", "artist": "Anirudh Ravichander, Vedan, Heisenberg"},
+        {"id": "h10", "badge": "New Release", "title": "Kaafi Hai Na", "desc": "A heartwarming, soulful ballad about contentment in love.", "cover": "https://c.saavncdn.com/623/Kaafi-Hai-Na-From-Musafir-Cafe-Hindi-2026-20260709221018-500x500.jpg", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785323335/Kaafi_Hai_Na_320_brdif3.mp3", "artist": "Priyansh Srivastava, Jonita Gandhi, Garvit-Priyansh"}
+    ],
+    "newSongs": [
+        {"id": "n1", "title": "Ve Kamleya", "artist": "Arijit, Shreya", "duration": "4:23", "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300", "audioUrl": "https://www.bensound.com/bensound-music/bensound-slowmotion.mp3"},
+        {"id": "n2", "title": "Heeriye", "artist": "Dulquer, Jasleen", "duration": "3:14", "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300", "audioUrl": "https://www.bensound.com/bensound-music/bensound-creativeminds.mp3"}
+    ],
+    "oldSongs": [
+        {
+    "id": "o1",
+    "title": "Mere Sapno Ki Rani",
+    "artist": "Kishore Kumar (1969)",
+    "duration": "4:12",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBaN92N-sIOnTKvdnCHGxjT-Vup_1-0KpAe_NRrXF6HQ&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o2",
+    "title": "Pyar Kiya To Darna Kya",
+    "artist": "Lata Mangeshkar (Mughal-E-Azam, 1960)",
+    "duration": "6:21",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRzd2mUciZyelej_pBSLkq7NzJOiEZ6c-C6OsZoFFHuQ&s",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o3",
+    "title": "Abhi Na Jao Chhod Kar",
+    "artist": "Mohammed Rafi, Asha Bhosle (Hum Dono, 1961)",
+    "duration": "4:15",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpS691ZKDw0vA_C8SWgbBb8OOwcpWqkUvpFJ30BwfMzw&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o4",
+    "title": "Lag Jaa Gale",
+    "artist": "Lata Mangeshkar (Woh Kaun Thi?, 1964)",
+    "duration": "4:16",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY4w95zQnLm0ArlnSbxCh7smNkQHwRa2Tdiway9se40w&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o5",
+    "title": "Roop Tera Mastana",
+    "artist": "Kishore Kumar (Aradhana, 1969)",
+    "duration": "3:45",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRglsosJ-_E__bHiZGQ75JWloxP_4w8hH3q3fd0-h9OvA&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o6",
+    "title": "Kabhi Kabhie Mere Dil Mein",
+    "artist": "Mukesh, Lata Mangeshkar (Kabhi Kabhie, 1976)",
+    "duration": "4:57",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFHDu7Tee1SVMOxOisgYk8g6Fi3cWlt-9uu4XIXs2G7Q&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o7",
+    "title": "Kya Hua Tera Wada",
+    "artist": "Mohammed Rafi, Sushma Shrestha (Hum Kisise Kum Naheen, 1977)",
+    "duration": "4:25",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvzC-Rfh53ND6ZR6M9PVFHNbCMoWTB2TD2vObaMmbXQ&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o8",
+    "title": "Khaike Paan Banaraswala",
+    "artist": "Kishore Kumar (Don, 1978)",
+    "duration": "3:57",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQosXj3LE3mSEad7wNiIcs3A3AVw5N49BwRiuJxl8w-rQ&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o9",
+    "title": "Om Shanti Om",
+    "artist": "Kishore Kumar (Karz, 1980)",
+    "duration": "8:51",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6iKJVmbEsARjRfulM0J6V55fHps3bKmzgjkzVCy4xcA&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o10",
+    "title": "Tujhse Naraz Nahin Zindagi",
+    "artist": "Anup Ghoshal / Lata Mangeshkar (Masoom, 1983)",
+    "duration": "5:40",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsfBRmzOPmmtc05MwDf1nehsbuiKUyF1uNQG31EtZENA&s=10",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  },
+  {
+    "id": "o11",
+    "title": "Sagar Kinare",
+    "artist": "Kishore Kumar, Lata Mangeshkar (Saagar, 1985)",
+    "duration": "4:23",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvNI2kCJ6CbsFaqHNdOuS2s5Wc_uuHETvJBUyJJDiE5A&s",
+    "audioUrl": "https://www.bensound.com/bensound-music/bensound-acousticbreeze.mp3"
+  }
+    ],
+    "albums": [
+        {"id": "al1", "title": "Awarapan", "artist": "Pritam", "duration": "45:00", "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTofbdYZMjSkCl0mmWkz9lk7b6Df_xTc4FNk6iOdAAc_w&s", "audioUrl": "https://res.cloudinary.com/pdbsjwmd/video/upload/v1785219225/Yeh_Awarapan_Awarapan_2_320_Kbps_mdtqsq.mp3"},
+        {"id": "al2", "title": "Animal", "artist": "Manan Bhardwaj", "duration": "52:12", "cover": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=300", "audioUrl": "https://www.bensound.com/bensound-music/bensound-energy.mp3"}
+    ],
+    "moods": [
+        {"title": "Bhakti", "link": "mood-bhakti.html"},
+        {"title": "Chill", "link": "mood-chill.html"},
+        {"title": "Party", "link": "mood-party.html"},
+        {"title": "Romance", "link": "mood-romance.html"}
+    ],
+    "decades": [
+        {"year": "1960s", "link": "era-1960.html"},
+        {"year": "1970s", "link": "era-1970.html"},
+        {"year": "1980s", "link": "era-1980.html"},
+        {"year": "1990s", "link": "era-1990.html"},
+        {"year": "2000s", "link": "era-2000.html"},
+        {"year": "2010s", "link": "era-2010.html"},
+        {"year": "2020s", "link": "era-2020.html"}
+    ],
+    "playlists": [
+        {"id": "pl1", "title": "Hindi Top 50", "artist": "Dhun Curated", "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300", "link": "playlist-hindi-top-50.html"},
+        {"id": "pl2", "title": "All Time Punjabi Top 50", "artist": "Dhun Curated", "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300", "link": "playlist-punjabi.html"}
+    ],
+    "artists": [
+        {"id": "ar1", "title": "Arijit Singh", "artist": "15.2M Listeners", "cover": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300", "link": "artist-arijit-singh.html"},
+        {"id": "ar2", "title": "Shreya Ghoshal", "artist": "12.1M Listeners", "cover": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300", "link": "artist-shreya-ghoshal.html"}
+    ],
+    "radios": [
+        {"id": "rd1", "title": "Love Hits Hindi", "artist": "Live Station", "cover": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=600", "link": "radio-love-hits.html"},
+        {"id": "rd2", "title": "Radio Gulzar", "artist": "Live Station", "cover": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=600", "link": "radio-gulzar.html"}
+    ],
+    "podcasts": [
+        {"id": "pd1", "title": "Ek Kahani Aisi Bhi", "artist": "Hindi Stories", "cover": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=600", "link": "podcast-ek-kahani.html"},
+        {"id": "pd2", "title": "The Indian Epic", "artist": "Mythology", "cover": "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?w=600", "link": "podcast-indian-epic.html"}
+    ]
+}

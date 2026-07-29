@@ -1,182 +1,369 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Dhun.pages.dev</title>
-<style>
-  /* Reset some default styles */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Aggressive SEO Optimization -->
+    <title>Dhun | Stream Free Music, Podcasts & Radio Online</title>
+    <meta name="description" content="Stream millions of songs for free on Dhun. Discover Hindi classics, Punjabi hits, 1940s-2026 archives, trending YouTube music, and open-source podcasts. No premium required.">
+    <meta name="keywords" content="free music streaming, listen to hindi songs online, punjabi top 50, bollywood old classics, podcasts hindi, online radio streaming, youtube trending songs, download free mp3, arijit singh new songs">
+    <meta name="author" content="Dhun">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://dhun.pages.dev/">
 
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    color: #fff;
-    line-height: 1.6;
-  }
+    <!-- OpenGraph & Social Media Tags -->
+    <meta property="og:site_name" content="Dhun">
+    <meta property="og:title" content="Dhun | Free Music & Podcast Streaming">
+    <meta property="og:description" content="Experience high-fidelity audio, curated Weekly Top Songs, and a time machine spanning the 1940s to 2026. 100% free forever.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&q=80">
+    <meta property="og:url" content="https://dhun.pages.dev/">
+    <meta property="og:type" content="website">
 
-  /* Header styles */
-  header {
-    background-color: #1f1f1f;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+    <!-- Schema.org JSON-LD for Google Rich Results (WebSite, App & FAQ) -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Dhun",
+        "url": "https://dhun.pages.dev/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://dhun.pages.dev/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "MusicApplication",
+        "name": "Dhun Free Music",
+        "url": "https://dhun.pages.dev/",
+        "image": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=800&q=80",
+        "description": "A revolutionary, 100% free music platform. Discover decades of Hindi music, top podcasts, and curated radios.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web, Mobile, iOS, Android",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR", "availability": "https://schema.org/InStock" }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is Dhun music streaming completely free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Dhun is a 100% free music streaming platform with no premium subscriptions required." } },
+          { "@type": "Question", "name": "Can I listen to old Bollywood songs on Dhun?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely! Dhun features a Time Travel section where you can explore classic Hindi songs from the 1940s to the 1980s." } }
+        ]
+      }
+    ]
+    </script>
 
-  header h1 {
-    font-size: 24px;
-    color: #ff3e00;
-  }
-
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 25px;
-    font-weight: 500;
-    transition: color 0.3s;
-  }
-
-  nav a:hover {
-    color: #ff3e00;
-  }
-
-  /* Hero section */
-  .hero {
-    background: linear-gradient(135deg, #ff3e00, #ff7f50);
-    padding: 80px 20px;
-    text-align: center;
-  }
-
-  .hero h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-
-  .hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-
-  .btn {
-    padding: 15px 30px;
-    background-color: #fff;
-    color: #ff3e00;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-  }
-
-  .btn:hover {
-    background-color: #ff3e00;
-    color: #fff;
-  }
-
-  /* Features section */
-  .features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px 20px;
-    background-color: #1f1f1f;
-  }
-
-  .feature {
-    flex: 1 1 250px;
-    max-width: 300px;
-    margin: 20px;
-    background-color: #292929;
-    padding: 20px;
-    border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-
-  .feature:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-  }
-
-  .feature h3 {
-    margin-bottom: 15px;
-    color: #ff3e00;
-  }
-
-  /* Footer styles */
-  footer {
-    background-color: #1f1f1f;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #888;
-  }
-
-  /* Responsive adjustments */
-  @media(max-width: 768px){
-    header {
-      flex-direction: column;
-      align-items: center;
-    }
-    nav {
-      margin-top: 10px;
-    }
-    .features {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-</style>
+    <link rel="stylesheet" href="styles.css?v=1.0.3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <h1>Dhun</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Browse</a>
-    <a href="#">Premium</a>
-    <a href="#">My Music</a>
-    <a href="#">Login</a>
-  </nav>
-</header>
+    <div id="dynamic-bg" class="dynamic-bg"></div>
+    <audio id="main-audio" title="Main Audio Player"></audio>
 
-<section class="hero">
-  <h2>Feel the Music, Anytime, Anywhere</h2>
-  <p>Stream your favorite songs and discover new tunes on Dhun.</p>
-  <button class="btn" onclick="alert('Get Started!')">Get Started</button>
-</section>
+    <header class="floating-header">
+        <div class="nav-pill">
+            <a href="index.html" class="logo" title="Dhun Home" aria-label="Dhun Home">
+                <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <circle cx="50" cy="50" r="50" fill="var(--accent)" />
+                    <path d="M40 30 L40 60 C36 58 32 60 30 63 C27 67 29 73 34 74 C39 75 44 72 45 67 L45 40 L65 45 L65 35 Z" fill="var(--bg-main)" />
+                </svg>
+                <span class="desktop-only">DHUN</span>
+            </a>
+            
+            <div class="search-wrapper">
+                <div class="search-box">
+                    <label for="search-input" class="sr-only">Search music, artists, podcasts</label>
+                    <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+                    <input type="text" id="search-input" name="search" title="Search Input" placeholder="Search music, artists, podcasts...">
+                    <button id="clear-search" class="clear-btn is-hidden" title="Clear Search" aria-label="Clear Search">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div id="search-stats" class="search-stats">Showing all tracks</div>
+            </div>
 
-<section class="features">
-  <div class="feature">
-    <h3>Unlimited Streaming</h3>
-    <p>Enjoy unlimited access to millions of songs without interruptions.</p>
-  </div>
-  <div class="feature">
-    <h3>Create Playlists</h3>
-    <p>Build your own playlists and share with friends.</p>
-  </div>
-  <div class="feature">
-    <h3>Offline Mode</h3>
-    <p>Download your favorite tracks and listen offline.</p>
-  </div>
-</section>
+            <div class="header-actions">
+                <label for="theme-switcher" class="sr-only">Choose Theme</label>
+                <select id="theme-switcher" class="theme-select" title="Change Theme" aria-label="Change Theme">
+                    <option value="dark">Dark</option>
+                    <option value="oled">OLED</option>
+                    <option value="light">Light</option>
+                    <option value="purple">Cosmic</option>
+                </select>
+                <button class="hamburger" id="hamburger" title="Open Menu" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
 
-<footer>
-  &copy; 2024 Dhun. All rights reserved.
-</footer>
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <button class="close-menu" id="close-menu" title="Close Menu" aria-label="Close Menu">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <nav class="mobile-links" id="mobile-nav-links" aria-label="Mobile Navigation"></nav>
+    </div>
 
-<script>
-  // Basic JS for demo
-  document.querySelector('.btn').addEventListener('click', () => {
-    alert('Enjoy music on Dhun!');
-  });
-</script>
+    <div class="category-strip">
+        <nav class="category-track" id="category-nav" aria-label="Music Categories">
+            <a href="#home" class="active" title="Home">Home</a>
+            <a href="#weekly-top" title="Weekly Top Songs">Weekly Top Songs</a>
+            <a href="#new-songs" title="New Releases">New Releases</a>
+            <a href="#old-songs" title="Classics">Classics (60s-80s)</a>
+            <a href="#decades" title="Time Travel">Time Travel</a>
+            <a href="#moods-genres" title="Moods & Genres">Moods & Genres</a>
+            <a href="#album" title="Trending Albums">Trending Albums</a>
+            <a href="#top-playlist" title="Top Playlists">Top Playlists</a>
+            <a href="#top-artist" title="Top Artists">Top Artists</a>
+            <a href="#radio" title="Live Radio">Live Radio</a>
+            <a href="#podcast" title="Podcasts">Podcasts</a>
+        </nav>
+    </div>
 
+    <main class="main-content">
+        <!-- Hero Slider -->
+        <section id="home" class="editorial-hero">
+            <div class="hero-slider" id="hero-slider"></div>
+            <div class="slider-dots" id="slider-dots"></div>
+        </section>
+
+        <!-- Dynamic Sections with Wrapped Sliders -->
+        <section id="weekly-top" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Weekly Top Songs <span class="subtitle desktop-only">YouTube Trending</span></h2>
+                <a href="weekly-toppp.html" class="see-all" title="View all weekly top songs">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll" id="weekly-top-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="new-songs" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Fresh Drops</h2>
+                <a href="new-songssss.html" class="see-all" title="View all new songs">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll" id="new-songs-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="old-songs" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Golden Era <span class="subtitle desktop-only">1960s - 1985</span></h2>
+                <a href="old-songs.html" class="see-all" title="View all classic old songs">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll" id="old-songs-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="decades" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Time Travel</h2>
+                <a href="time-travel.html" class="see-all" title="Explore all decades">View All</a>
+            </div>
+            <div class="timeline-scroll" id="decades-container"></div>
+        </section>
+
+        <section id="moods-genres" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Moods & Genres</h2>
+                <a href="moods-genres.html" class="see-all" title="View all moods and genres">View All</a>
+            </div>
+            <div class="bento-grid" id="moods-container"></div>
+        </section>
+
+        <section id="album" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Trending Albums</h2>
+                <a href="albums.html" class="see-all" title="View all trending albums">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll shape-square" id="album-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="top-playlist" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Top Playlists</h2>
+                <a href="playlists.html" class="see-all" title="View all top playlists">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll shape-rect" id="playlist-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="top-artist" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Top Artists</h2>
+                <a href="artists.html" class="see-all" title="View all top artists">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll shape-circle" id="artist-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="radio" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Live Radio Stations</h2>
+                <a href="radio.html" class="see-all" title="View all live radio stations">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll shape-wide" id="radio-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <section id="podcast" class="content-section reveal-section">
+            <div class="section-head">
+                <h2>Trending Podcasts</h2>
+                <a href="podcasts.html" class="see-all" title="View all trending podcasts">View All</a>
+            </div>
+            <div class="slider-wrapper">
+                <button class="slider-arrow left" aria-label="Scroll Left"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+                <div class="horizontal-scroll shape-wide" id="podcast-container"></div>
+                <button class="slider-arrow right" aria-label="Scroll Right"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            </div>
+        </section>
+
+        <!-- Aggressive SEO FAQ Section Restored -->
+        <section class="seo-faq-section reveal-section">
+            <h2>Frequently Asked Questions about Dhun Music</h2>
+            <div class="faq-grid">
+                <article class="faq-item">
+                    <h3>Is Dhun really free?</h3>
+                    <p>Yes, Dhun is a 100% free online music streaming platform. You can listen to limitless Hindi, Punjabi, and English songs without any subscription fees or sign-ups.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>Can I find Old Bollywood Classics here?</h3>
+                    <p>Absolutely. Our <strong>Time Travel</strong> and <strong>Golden Era</strong> sections are specifically curated with the best Hindi classics from the 1960s to the 1980s, including legends like Kishore Kumar and Lata Mangeshkar.</p>
+                </article>
+                <article class="faq-item">
+                    <h3>Do you have free podcasts and live radio?</h3>
+                    <p>Yes! Dhun offers a wide variety of free Hindi story podcasts, mythological epics, and 24/7 live internet radio stations covering different moods and genres.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="pro-footer reveal-section">
+            <div class="footer-columns">
+                <div class="col brand-col">
+                    <span class="logo-text">DHUN</span>
+                    <p>Designed for the true audiophile. India's premier free music platform.</p>
+                </div>
+                <div class="col">
+                    <h4>Explore</h4>
+                    <a href="weekly-top.html">Weekly Top Songs</a>
+                    <a href="old-songs.html">Old Classics Music</a>
+                    <a href="podcasts.html">Free Hindi Podcasts</a>
+                </div>
+                <div class="col">
+                    <h4>Top Languages</h4>
+                    <a href="hindi-songs.html">Hindi Songs</a>
+                    <a href="punjabi-songs.html">Punjabi Songs</a>
+                    <a href="english-pop.html">English Pop</a>
+                </div>
+                <div class="col">
+                    <h4>Legal</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-legal">
+                <p><strong>Disclaimer:</strong> Dhun is a non-commercial frontend educational project. Not affiliated with Gaana, Spotify, or YouTube. Audio provided for demonstration only. All rights belong to their respective owners.</p>
+                <p>&copy; 2026 Dhun Music Platform. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Floating Audio Player -->
+    <div class="floating-player-wrapper">
+        <div class="queue-panel" id="queue-panel">
+            <div class="queue-header">
+                <h3>Current Queue</h3>
+                <button id="close-queue" class="micro-btn" title="Close Queue" aria-label="Close Queue">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="queue-list" id="queue-list"></div>
+        </div>
+
+        <div class="floating-player">
+            <!-- Mobile scrubber -->
+            <label for="seek-bar-mobile" class="sr-only">Seek Audio Mobile</label>
+            <input type="range" id="seek-bar-mobile" class="scrubber mobile-scrubber" title="Seek Audio Mobile" value="0" min="0" max="100">
+            
+            <div class="player-info">
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&q=80" id="player-img" alt="Cover Art">
+                <div class="marquee-container">
+                    <h4 id="player-title">Welcome to Dhun</h4>
+                    <div class="title-row">
+                        <p id="player-artist">Select a track</p>
+                        <div class="mini-equalizer is-hidden" id="main-equalizer" aria-hidden="true">
+                            <span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="player-controls">
+                <button class="ctrl-btn micro-btn" id="btn-prev" title="Previous Track" aria-label="Previous Track">
+                    <i class="fa-solid fa-backward-step" aria-hidden="true"></i>
+                </button>
+                <button class="ctrl-play micro-btn" id="master-play" title="Play or Pause" aria-label="Play or Pause">
+                    <i class="fa-solid fa-play" aria-hidden="true"></i>
+                </button>
+                <button class="ctrl-btn micro-btn" id="btn-next" title="Next Track" aria-label="Next Track">
+                    <i class="fa-solid fa-forward-step" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="player-timeline desktop-only">
+                <span id="current-time">0:00</span>
+                <label for="seek-bar" class="sr-only">Seek Audio</label>
+                <input type="range" id="seek-bar" class="scrubber" title="Seek Audio" value="0" min="0" max="100">
+                <span id="total-time">0:00</span>
+            </div>
+
+            <div class="player-tools">
+                <button class="ctrl-btn micro-btn desktop-only" title="Lyrics" aria-label="Lyrics">
+                    <i class="fa-solid fa-microphone-lines" aria-hidden="true"></i>
+                </button>
+                <button class="ctrl-btn micro-btn" id="btn-queue" title="View Queue" aria-label="View Queue">
+                    <i class="fa-solid fa-list-ul" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Toast Notifications -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <!-- Fixed Back to Top Button -->
+    <button id="back-to-top" class="micro-btn" title="Back to top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="script.js?v=1.0.3"></script>
 </body>
 </html>
